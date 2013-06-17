@@ -1,13 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="yoma.batching",
+    name="getpaid.yoma.batching",
     version="0.2.2-getpaid",
-    packages=find_packages('src'),
-    package_dir= {'':'src'},
-    namespace_packages=['yoma'],
-    package_data = {
-    '': ['*.txt', '*.zcml', '*.gif', '*.js', '*.pt'],
+    packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+    namespace_packages=['getpaid'],
+    package_data={
+        '': ['*.txt', '*.zcml', '*.gif', '*.js', '*.pt'],
     },
     zip_safe=False,
     author='',
