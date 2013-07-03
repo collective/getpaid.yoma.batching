@@ -12,8 +12,8 @@ Paging tests
 A paginator object provides navigation parameters from batch paramaters.
 A batch navigation renderer produces the html from a paginator
 
-    >>> from yoma.batching import Paginator
-    >>> from yoma.batching import RenderNav
+    >>> from getpaid.yoma.batching import Paginator
+    >>> from getpaid.yoma.batching import RenderNav
 
     >>> class Request(dict):
     ...
@@ -210,7 +210,7 @@ Mixin class
     >>> import string
     >>> from zc.table import Formatter
     >>> from zc.table.column import GetterColumn
-    >>> from yoma.batching import BatchingMixin
+    >>> from getpaid.yoma.batching import BatchingMixin
 
     >>> context = None
     >>> request = Request(url='http://host/search')
